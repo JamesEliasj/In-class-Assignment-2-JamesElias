@@ -11,67 +11,59 @@
 }
 
 header h1 {
-  display: flex;
-  justify-content: center;
-  margin: 10px 10px 20px;
-  padding: 20px 0;
-  border: 1px solid var(--border-color);
-}
-
-.cards {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 50px 0;
-}
-
-.cards .letter-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: 1px solid var(--border-color);
-  visibility: hidden;
-}
-
-.cards .letter-card img {
-  width: 400px;
-  height: 400px;
-}
-
-.cards .letter-card button {
-  color: #fff;
-  font-size: 32px;
-  background-color: var(--fill-color);
-  padding: 0 60px;
-  margin: 12px 0;
-  border: 0px;
-  cursor: pointer;
-}
-
-.reveal-btns {
-  display: flex;
-  justify-content: space-around;
-}
-
-.reveal-btns button {
-  font-size: 36px;
-  padding: 10px 100px;
-  border: 1px solid var(--border-color);
-  cursor: pointer;
-  transition: all 0.5s ease;
-}
-
-.reveal-btns button:hover {
-  color: var(--border-color);
-}
-
-.reveal-btns #b-btn {
-  margin: 0 -200px;
-}
-
-.cards .letter-card img {
-  border-radius: 50%;
-}
-
-.cards .letter-card button {
-  border-radius: 10px; 
-}
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px 20px;
+    padding: 20px 0;
+    border: 1px solid var(--border-color);
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+  }
+  
+  .cards .letter-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--border-color);
+    visibility: hidden;
+  }
+  
+  .cards .letter-card img {
+    width: 400px;
+    height: 400px;
+  }
+  
+  .cards .letter-card button {
+    color: #fff;
+    font-size: 32px;
+    background-color: var(--fill-color);
+    padding: 0 60px;
+    margin: 12px 0;
+    border: 0px;
+    cursor: pointer;
+  }
+  
+  .reveal-btns {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .reveal-btns button {
+    font-size: 36px;
+    padding: 10px 100px;
+    border: 1px solid var(--border-color);
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  
+  .reveal-btns button:hover {
+    color: var(--border-color);
+  }
+  
+  .reveal-btns #b-btn {
+    margin: 0 -200px;
+  }
