@@ -67,10 +67,6 @@ header h1 {
   .reveal-btns #b-btn {
     margin: 0 -200px;
   }
-
-  .cards .letter-card img {
-    border-radius: 50%; 
-  }
   
   .cards .letter-card button {
     border-radius: 10px; 
