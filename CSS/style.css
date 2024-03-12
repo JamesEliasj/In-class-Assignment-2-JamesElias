@@ -16,6 +16,7 @@ header h1 {
     margin: 10px 10px 20px;
     padding: 20px 0;
     border: 1px solid var(--border-color);
+    font-weight: normal;
   }
   
   .cards {
